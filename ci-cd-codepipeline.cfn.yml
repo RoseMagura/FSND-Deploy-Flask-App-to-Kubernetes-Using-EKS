@@ -345,7 +345,7 @@ Resources:
                 Version: 1
                 Provider: GitHub
               Configuration:
-                Owner: !Ref GitHubUser
+                Owner: !Ref RoseMagura
                 Repo: !Ref GitSourceRepo
                 Branch: !Ref GitBranch
                 OAuthToken: !Ref GitHubToken
